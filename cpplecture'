@@ -1,0 +1,23 @@
+//pointer
+//push_back function - used to add an element at the end of the vector
+//a_ptr->push_back(100);
+//(*a_ptr).push_back(100);
+//cout<<(*a_ptr)<<endl;
+//long number = 10;
+//long *p_number = &number;
+//or you can simply do 
+//new operator - is used to allocate memory dynamically
+//three things new operator does is 
+//int* ptr = new int(6);
+//cout<<*ptr<<endl;//if we will not use * address will be printed.
+//1. allocates memory
+//2. returns the address of allocated memory
+//3. calls the constructor to initialize the memory (if applicable)
+//class - blueprint of an object
+//public- members are accessible from outside the class
+//private- members are not accessible from outside the class
+//protected- members are accessible in derived class
+//difference between passing by refernce and psasing by value
+//passing by value - a copy of the actual parameter is passed to the function
+//passing by reference - a reference to the actual parameter is passed to the function
+//
